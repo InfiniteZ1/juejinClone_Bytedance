@@ -1,24 +1,309 @@
 #container {
-	background-color: rgb(51,51,51,0.15);
+	background-color: rgb(51, 51, 51, 0.15);
 }
 
-#header {
+/* #header {
     width: 100%;
 	height: 60px;
-	background-color: whitesmoke;
+	background-color: white;
 }
 
 #afterHeader {
 	width: 100%;
 	height: 40px;
-	background-color: whitesmoke;
-	margin-top:2px rgb(51,51,51,0.3) solid;
+	background-color: white;
+	margin-top:2px rgba(51,51,51,0.3) solid;
 	
-}
+} */
 
 #main {
 	margin: 15px auto;
-    width: 70%;
+	width: 960px;
 	height: 1000px;
-	background-color: whitesmoke;
+	background-color: rgba(51, 51, 51, 0.1);
+	position: relative;
+}
+
+#SlideList_base {
+	display: flex;
+	flex-direction: column;
+	width: 700px;
+	background-color: inherit;
+	margin-right: 20px;
+}
+
+#imgBlock_right {
+	width: 240px;
+	height: 1000px;
+	background-color: inherit;
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 1;
+}
+
+/* 侧边栏广告 */
+.ad a {
+	margin-top: 16px;
+	display: block;
+	text-decoration: none;
+}
+
+.ad img {
+	width: 240px;
+	height: 200px;
+}
+
+/* 二维码部分广告 */
+.link {
+	cursor: pointer;
+	margin-top: 16px;
+	box-sizing: border-box;
+	background-color: #fff;
+	width: 240px;
+	height: 74px;
+	padding: 12px;
+}
+
+.link a {
+	float: left;
+	display: block;
+}
+
+.link img {
+	width: 50px;
+	height: 50px;
+	margin: 0px 16px 0 0;
+}
+
+.ontheright {
+	float: right;
+	width: 144px;
+	height: 48px;
+}
+
+.onthetop {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 22px;
+	color: #1d2129;
+}
+
+.onthedown {
+	margin-top: .5rem;
+	font-size: 12px;
+	line-height: 20px;
+	color: #86909c;
+}
+
+/* 二维码部分结束 */
+
+/* 作者榜部分 */
+.user-header {
+	color: #333;
+	margin-top: 16px;
+	background-color: #fff;
+	padding: 1rem 1.3rem;
+	border-bottom: 1px solid hsla(0, 0%, 59.2%, .1);
+}
+
+.user-block {
+	background-color: #fff;
+	cursor: pointer;
+	padding: 12px 15.6px;
+}
+
+.user-block:hover {
+	background-color: #fbfbfb;
+}
+
+.user-ontheright {
+	float: right;
+	width: 144px;
+	height: 48px;
+}
+
+.user-onthetop {
+	font-weight: 400;
+	font-size: 1.16rem;
+	line-height: 22px;
+	color: #333;
+}
+
+.user-onthedown {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-top: .5rem;
+	font-size: 12px;
+	line-height: 20px;
+	color: #909090;
+}
+
+.user-block a {
+	overflow: hidden;
+	display: inline-block;
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+}
+
+.user-block img {
+	width: 45px;
+	height: 45px;
+	margin: 0px 16px 0 0;
+}
+
+.user-down {
+	font-size: 14px;
+	cursor: pointer;
+	color: #007FFF;
+	padding: 12px;
+	background: #fff;
+	text-align: center;
+}
+
+/* 作者榜结束 */
+
+
+/* 扩展部分 */
+.user-block-down {
+	color: #333;
+	background-color: #fff;
+	margin-top: 10px;
+	height: 60px;
+	width: 240px;
+	padding: 12px;
+	box-sizing: border-box;
+}
+
+.user-block-down:hover {
+	background-color: #fbfbfb;
+	cursor: pointer;
+}
+
+.user-block-down img {
+	float: left;
+	width: 36px;
+	height: 36px;
+	margin: 0px 20px 0 16px;
+}
+
+.user-block-down p {
+	font-size: 14px;
+	color: #333;
+	line-height: 36px;
+}
+
+/* 扩展部分结束 */
+
+aside li {
+
+	font-size: 10px;
+	display: inline-block;
+}
+
+aside a {
+	color: #909090;
+}
+
+aside a:hover {
+	color: #007fff;
+}
+
+ul li img {
+	vertical-align: middle;
+	width: 20px;
+}
+
+aside span {
+	display: block;
+	line-height: 20px;
+	font-size: 10px;
+	color: #909090;
+}
+
+
+span a:hover {
+	color: #007fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slStyle {
+	background-color: white;
+	width: 100%;
+	margin: 0.5px auto;
+}
+
+.slStyle:hover {
+	background-color: #fafafa;
+}
+
+.contextBox1 {
+	height: 129px;
+	width: 660px;
+	padding: 12px 20px 0px 20px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
+
+.title {
+	height: 22px;
+	width: 660px;
+	font-size: 13px;
+	color: #86909c;
+	display: flex;
+	flex-direction: row;
+}
+
+.titleFix {
+	width: 100%;
+}
+
+.conClick1 {
+	font-weight: 700;
+	color: black;
+	line-height: 24px;
+	margin-bottom: 8px;
+	display: inline-block;
+}
+
+.conClick2 {
+	font-size: 13px;
+	line-height: 22px;
+	color: #86909c;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.icon {
+	width: 512px;
+	height: 20px;
+	margin: 0 auto;
+}
+
+
+.signUp {
+	width: 240px;
+	height: 96px;
+	background-color: white;
 }
