@@ -25,11 +25,11 @@ a {
 /* 字体声明 */
 @font-face {
     font-family: 'icomoon';
-    src: url('fonts/icomoon.eot?7kkyc2');
-    src: url('fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
-        url('fonts/icomoon.ttf?7kyc2') format('truetype'),
-        url('fonts/icomoon.woff?7kkyc2') format('woff'),
-        url('fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7kyc2') format('truetype'),
+        url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+        url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
     font-wight: normal;
     font-style: normal;
 }
@@ -152,6 +152,8 @@ a {
     float: left;
     width: 137px;
     height: 60px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .creative ul li:hover {
@@ -307,6 +309,7 @@ div.bell::after {
 
 /* 日历部分 */
 .calendar {
+    
     overflow: hidden;
     font-family: 'icomoon';
     width: 240px;
@@ -351,7 +354,7 @@ a {
 .calendar div.down {
     font-weight: 400;
     font-size: 14px;
-    margin: 25px 0 0 15px;
+    margin: 16px 0 0 15px;
     width: 172px;
     height: 24px;
     text-align: center;
