@@ -70,9 +70,7 @@
 
 					<!-- user模板 -->
 					<div class="user">
-						<a href="#">
 							<img src="images/user.jpg" alt="">
-						</a>
 					</div>
 
 				</div>
@@ -146,11 +144,24 @@
 					<!-- 签到部分 -->
 					<div class="signUp">
 						<div class="calendar">
-							<span>&nbsp;早上好！</span>
+							<span id="hello">早上好！</span>
+							<script>
+								var hello = document.getElementById('hello');
+								var date = new Date();
+								var h = date.getHours();
+								if (h < 12) {
+									hello.innerHTML = '早上好！';
+								} else if (h < 18) {
+									hello.innerHTML = '下午好！';
+								} else {
+									hello.innerHTML = '晚上好！';
+								}
+							</script>
 							<a href="#">去签到</a>
 							<div class="down">点亮你在社区的每一天</div>
 						</div>
 					</div>
+
 					<div class="ad">
 						<a href="#"><img src="images/ad1.jpg" alt=""></a>
 						<a href="#"><img src="images/ad2.jpg" alt=""></a>
@@ -231,13 +242,13 @@
 						<li><a href="#">更多文章</a></li>
 					</ul>
 					<ul>
-						<li><a href="#"><img src="images/police.png" alt="" >  京ICP备 18012699号-3</a></li>
+						<li><a href="#"><img src="images/police.png" alt=""> 京ICP备 18012699号-3</a></li>
 					</ul>
 					<span>版权所有：北京北比信息技术有限公司</span>
 					<span>公司地址：北京市海淀区信息路甲28号13层B座13B-5</span>
 					<span>公司座机：010-83434395</span>
 					<span>举报邮箱： <a href="#">feedback@xitu.io</a></span>
-					<span><a href="#">@2022  稀土掘金</a></span>
+					<span><a href="#">@2022 稀土掘金</a></span>
 					<img src="images/fount1.png" alt="" style="width: 24px ">&nbsp;
 					<img src="images/fount2.png" alt="" style="width: 24px ">
 				</aside>

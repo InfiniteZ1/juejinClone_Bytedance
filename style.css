@@ -255,14 +255,17 @@ div.bell::after {
 
 /* user模板 */
 .user {
-    float: left;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
     width: 40px;
+    position: relative;
+    top: -20px;
 }
 
 .user img {
-    position: relative;
-    width: 35px;
-    top: -19px;
+    width: 40px;
 }
 
 
@@ -316,7 +319,7 @@ div.bell::after {
     box-sizing: border-box;
 }
 
-.calendar span {
+#hello {
     display: inline-block;
     color: #22252a;
     font-size: 18px;
