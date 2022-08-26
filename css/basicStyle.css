@@ -1,5 +1,5 @@
-#container {
-	background-color: rgb(51, 51, 51, 0.15);
+#Container {
+	background-color: rgb(240, 240, 240);
 }
 
 /* #header {
@@ -19,8 +19,7 @@
 #main {
 	margin: 15px auto;
 	width: 960px;
-	height: 1000px;
-	background-color: rgba(51, 51, 51, 0.1);
+	background-color: rgb(240, 240, 240);
 	position: relative;
 }
 
@@ -34,7 +33,6 @@
 
 #imgBlock_right {
 	width: 240px;
-	height: 1000px;
 	background-color: inherit;
 	display: block;
 	position: absolute;
@@ -228,25 +226,7 @@ aside span {
 span a:hover {
 	color: #007fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* --- */
 .slStyle {
 	background-color: white;
 	width: 100%;
@@ -254,7 +234,7 @@ span a:hover {
 }
 
 .slStyle:hover {
-	background-color: #fafafa;
+	background-color: #f3f3f3;
 }
 
 .contextBox1 {

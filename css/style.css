@@ -152,6 +152,8 @@ a {
     float: left;
     width: 137px;
     height: 60px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 .creative ul li:hover {
@@ -279,6 +281,7 @@ div.bell::after {
 }
 
 .nav-list {
+
     width: 960px;
     height: 61px;
     margin: 0 auto;
@@ -310,6 +313,7 @@ div.bell::after {
 
 /* 日历部分 */
 .calendar {
+    
     overflow: hidden;
     font-family: 'icomoon';
     width: 240px;
@@ -354,7 +358,7 @@ a {
 .calendar div.down {
     font-weight: 400;
     font-size: 14px;
-    margin: 25px 0 0 15px;
+    margin: 16px 0 0 15px;
     width: 172px;
     height: 24px;
     text-align: center;
