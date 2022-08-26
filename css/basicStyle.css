@@ -1,5 +1,5 @@
 #Container {
-	background-color: rgb(51, 51, 51, 0.15);
+	background-color: rgb(240, 240, 240);
 }
 
 /* #header {
@@ -19,7 +19,7 @@
 #main {
 	margin: 15px auto;
 	width: 960px;
-	background-color: rgba(51, 51, 51, 0.1);
+	background-color: rgb(240, 240, 240);
 	position: relative;
 }
 
@@ -234,7 +234,7 @@ span a:hover {
 }
 
 .slStyle:hover {
-	background-color: #fafafa;
+	background-color: #f3f3f3;
 }
 
 .contextBox1 {
